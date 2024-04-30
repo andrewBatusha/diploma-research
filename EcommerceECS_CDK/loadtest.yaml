@@ -1,0 +1,15 @@
+config:
+  phases:
+    - duration: 250
+      arrivalRate: 100
+  http:
+    timeout: 29
+scenarios:
+  - flow:
+      - get:
+          url: /products/e4e6f159-0205-47d3-98d1-a847f8ba1877
+#          json:
+#            name: "{{ $randomString() }}"
+#            code: "{{ $randomString() }}"
+#            model: "{{ $randomString() }}"
+#            price: 20.0
